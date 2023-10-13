@@ -19,7 +19,6 @@ body {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 5vh;
 }
 
 .memory-game {
@@ -133,4 +132,17 @@ footer{
 
 footer img{
     height: 30px;
+}
+
+@media (max-width: 500px) {
+
+    .memery-game__container {
+        height: 400px;
+        width: 310px;
+    }
+
+    .memory-card {
+        width: 70px;
+        height: 70px;
+    }
 }
